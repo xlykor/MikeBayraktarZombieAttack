@@ -3,7 +3,7 @@
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; -- the title (ofc)
-Text = "Script Made By ShieldCrpyt"; -- what the text says (ofc)
+Text = "Script Made By ShieldCrypt"; -- what the text says (ofc)
 Icon = ""; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
@@ -64,7 +64,7 @@ Title.BackgroundColor3 = Color3.new(0, 0, 0)
 Title.BackgroundTransparency = 0.40000000596046
 Title.Size = UDim2.new(0, 170, 0, 30)
 Title.Font = Enum.Font.GothamBold
-Title.Text = "Script Made By ShieldCrpyt"
+Title.Text = "Script Made By ShieldCrypt"
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.TextSize = 14
 

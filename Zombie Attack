@@ -1,9 +1,10 @@
 
 
+
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; -- the title (ofc)
-Text = "Script Made By ShieldCrypt"; -- what the text says (ofc)
+Text = "Script Made By https://discord.gg/bHpptYN88n"; -- what the text says (ofc)
 Icon = ""; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })

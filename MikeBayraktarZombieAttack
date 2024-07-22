@@ -1,6 +1,6 @@
 
 
-local url = "https://discord.com/invite/62h8Dx2CXk"
+local url = "https://discord.gg/eh4Wa4C6yC"
 setclipboard(url)
 print("Discord url has been copied to your clipboard!")
 

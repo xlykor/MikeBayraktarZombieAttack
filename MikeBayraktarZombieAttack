@@ -193,6 +193,22 @@ WalkSpeed.TextColor3 = Color3.new(1, 1, 1)
 WalkSpeed.TextSize = 14
 WalkSpeed.MouseButton1Click:connect(function()
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+
+local player = game.Players.LocalPlayer
+
+local function equipAllTools(character)
+    for _, tool in pairs(player.Backpack:GetChildren()) do
+        if tool:IsA("Tool") then
+            tool.Parent = character
+        end
+    end
+end
+
+player.CharacterAdded:Connect(equipAllTools)
+
+if player.Character then
+    equipAllTools(player.Character)
+end
 end)
 
 Close.Name = "Close"
